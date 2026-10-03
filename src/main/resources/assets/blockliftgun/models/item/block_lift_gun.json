@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "blockliftgun:item/block_lift_gun"
+  }
+}

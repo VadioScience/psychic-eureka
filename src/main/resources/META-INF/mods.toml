@@ -1,0 +1,26 @@
+modLoader = "javafxmod"
+loaderVersion = "[21,)"
+license = "MIT"
+showAsLibrary = false
+
+[[mods]]
+modId = "blockliftgun"
+namespace = "blockliftgun"
+version = "1.0.0"
+displayName = "Block Lift Gun"
+description = "Простой мод, добавляющий пушку, которая поднимает блоки в воздух при выстреле"
+logoFile = "logo.png"
+
+[[dependencies.blockliftgun]]
+    modId = "neoforge"
+    mandatory = true
+    versionRange = "[21,)"
+    ordering = "NONE"
+    side = "BOTH"
+
+[[dependencies.blockliftgun]]
+    modId = "minecraft"
+    mandatory = true
+    versionRange = "[1.21.1,1.22)"
+    ordering = "NONE"
+    side = "BOTH"
